@@ -31,7 +31,7 @@ public class Day0211 {
 		int num4 = 20; //int는 integer의 약어
 		System.out.println(""+num3 + num4); //숫자를 문자로 변형하는 방법1
 //		String str3 = num3 + ""; //편법
-		String str3 = String.valueOf(num3); //숫자를 문자로 변형하는방법 2
+		//String str3 = String.valueOf(num3); //숫자를 문자로 변형하는방법 2
 		
 		String str4 = "100";
 		System.out.println(str4 + 100);
@@ -39,14 +39,14 @@ public class Day0211 {
 		int num5 = Integer.valueOf(str4);
 		System.out.println(num5 + 100);
 		
-		int num6 = Integer.parseInt(str4);
-		double d2 = Double.parseDouble(str4);
+		//int num6 = Integer.parseInt(str4);
+	//	double d2 = Double.parseDouble(str4);
 		
-		String str5 = "Hello";
+		//String str5 = "Hello";
 //		int num7 = Integer.valueOf(str5);
 //		int num7 = Integer.parseInt(str5);
 		
-		System.out.println(num7);
+		//System.out.println(num7);
 		
 		
 		
